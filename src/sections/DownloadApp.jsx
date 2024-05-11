@@ -2,7 +2,6 @@ import Logo from "../assets/images/Union.png";
 
 
 // icons
-import { FaApple } from "react-icons/fa";
 import { FaGooglePlay as GooglePlayIcon } from "react-icons/fa";
 import { CgAdd } from "react-icons/cg";
 
