@@ -1,10 +1,15 @@
 import { IoIosArrowUp as ArrowClick } from "react-icons/io";
 import ButtonAlt from "./components/ButtonAlt";
+
+
+/// Icons
 import Home from "./sections/Home";
 import Benefits from "./sections/Benefits";
 import Feedbacks from "./sections/Feedbacks";
 import Adversiting from "./sections/Adversiting";
 import DownloadApp from "./sections/DownloadApp";
+import Blog from "./sections/Blog";
+import Help from "./sections/Help";
 
 function Header() {
   return (
@@ -47,6 +52,8 @@ export default function App() {
         <Feedbacks />
         <Adversiting />
         <DownloadApp />
+        <Blog />
+        <Help />
       </main>
     </>
   );
