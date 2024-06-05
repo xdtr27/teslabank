@@ -16,18 +16,18 @@ import Heart from "../assets/icons/heart.png";
 
 export default function Home() {
   return (
-    <section className="flex flex-col items-center p-desktop py-16 gap-40">
-      <div className="flex items-center gap-10">
+    <section className="flex flex-col  p-mobile py-16 md:p-desktop md:py-16 gap-40">
+      <div className="flex flex-wrap lg:flex-nowrap items-center gap-0 lg:gap-10">
         <div className="flex flex-col gap-8">
-          <h1 className="text-6xl font-medium">
+          <h1 className=" text-4xl lg:text-6xl font-medium">
             TeslaBank <br /> seu banco digital.
           </h1>
-          <p className="text-xl">
+          <p className="text-md lg:text-xl">
             Com TeslaBank, você pode realizar transferências bancárias com zero
             taxa e pagar suas contas.
           </p>
 
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="flex items-center gap-3">
               {" "}
               <span className="bg-rose-50 p-2 rounded-full">
@@ -65,12 +65,12 @@ export default function Home() {
             <div></div>
           </div>
         </div>
-        <div>
+        <div className="hidden lg:block">
           <img src={Cards} alt="Cartões Teslabank" />
         </div>
       </div>
-      <div className="flex items-center gap-32">
-        <div className="relative">
+      <div className="flex flex-wrap flex-col-reverse md:flex-nowrap md:flex-row items-center gap-32">
+        <div className="relative hidden lg:block">
           <img src={Phone} alt="Celular com app do banco Teslabank aberto" />
           <span className="absolute bg-rose-50 p-4 rounded-[4px] right-[-30px] bottom-56">
             <img src={MousePointer} alt="" />

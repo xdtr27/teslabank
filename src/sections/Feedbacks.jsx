@@ -2,17 +2,17 @@ import FeedbackCard from "../components/FeedbackCard";
 
 export default function Feedbacks() {
   return (
-    <section className="p-desktop py-36">
+    <section className="p-mobile md:p-desktop py-36">
       <div className="mb-16">
         <span className="text-alt font-semibold">#DEPOIMENTOS</span>
-        <h3 className="text-5xl mt-3 font-medium">
+        <h3 className="text-3xl md:text-5xl mt-3 font-medium">
           TeslaBank fora das telinhas:
         </h3>
-        <h3 className="text-5xl font-light">
+        <h3 className="text-3xl md:text-5xl font-light">
           Veja o que estão falando sobre nós
         </h3>
       </div>
-      <div className="flex gap-8">
+      <div className="flex gap-8 flex-wrap md:flex-nowrap">
         <FeedbackCard title="Nikola Tesla">
           Estou realmente impressionado com a qualidade do serviço do TeslaBank.
           Desde que comecei a usá-lo, todas as minhas transações financeiras

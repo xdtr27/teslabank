@@ -20,6 +20,7 @@ export default {
 
       padding: {
         desktop: "0 15%",
+        mobile: "0 5%",
       },
       textColor: {
         primary: "#1A191E",

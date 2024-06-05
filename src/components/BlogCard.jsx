@@ -2,7 +2,7 @@
 
 export default function BlogCard({img, title, children}) {
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-4 border border-red-200 p-6">
       <div>
         <img src={img} alt="Imagem do Card" className="w-full h-[300px]"/>
       </div>

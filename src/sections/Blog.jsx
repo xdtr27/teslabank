@@ -8,14 +8,14 @@ import BlogCard from "../components/BlogCard";
 
 export default function Blog() {
   return (
-    <section className="p-desktop py-36">
+    <section className="p-mobile md:p-desktop py-16 md:py-36">
       <div className="flex justify-between items-center">
-        <h3 className="text-6xl font-medium">Blog</h3>
+        <h3 className="text-5xl md:text-6xl font-medium">Blog</h3>
         <a href="#" className="flex gap-2 items-center font-semibold text-alt hover:text-rose-400 transition-colors">
           Todas as postagens <Seta />
         </a>
       </div>
-      <div className="flex mt-12 gap-8">
+      <div className="grid grid-cols-1 xl:grid-cols-3 mt-12 gap-8">
         <BlogCard
           title={"Como começar a usar o TeslaBank para sua startup"}
           img={Image1}
